@@ -26,9 +26,13 @@ namespace FinalProject
         int MucPhatTheoTuan();
         int MucPhatTheoThang();
         
+<<<<<<< HEAD
 
 
            //Chi
+=======
+        //NAT's
+>>>>>>> fed8e6c494e0df5610dde576ab1e1879fbd6f92f
 
     }
 }
