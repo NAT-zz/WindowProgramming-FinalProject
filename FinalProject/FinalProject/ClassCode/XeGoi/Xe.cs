@@ -25,6 +25,10 @@ namespace FinalProject
         int MucPhatTheoNgay();
         int MucPhatTheoTuan();
         int MucPhatTheoThang();
+        
+
+
+           //Chi
 
     }
 }
