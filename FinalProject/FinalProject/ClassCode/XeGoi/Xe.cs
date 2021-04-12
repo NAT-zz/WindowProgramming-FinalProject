@@ -25,6 +25,8 @@ namespace FinalProject
         int MucPhatTheoNgay();
         int MucPhatTheoTuan();
         int MucPhatTheoThang();
+        
+        //NAT's
 
     }
 }
