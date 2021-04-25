@@ -21,5 +21,11 @@ namespace FinalProject
         {
 
         }
+
+        private void xeGởiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fQuanLiXeGoi frm = new fQuanLiXeGoi();
+            frm.Show();
+        }
     }
 }

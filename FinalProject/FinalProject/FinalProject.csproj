@@ -48,6 +48,15 @@
   <ItemGroup>
     <Compile Include="ClassCode\CongViec\CongViec.cs" />
     <Compile Include="ClassCode\MY_DB.cs" />
+    <Compile Include="ClassCode\XeGoi\XeDap.cs" />
+    <Compile Include="ClassCode\XeGoi\XeHoi.cs" />
+    <Compile Include="ClassCode\XeGoi\XeMay.cs" />
+    <Compile Include="Form\Chung\DoanhThuVaPhiGoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Chung\DoanhThuVaPhiGoi.Designer.cs">
+      <DependentUpon>DoanhThuVaPhiGoi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\Xe\MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +80,9 @@
     </Compile>
     <Compile Include="ClassCode\Tho\Tho.cs" />
     <Compile Include="ClassCode\XeGoi\Xe.cs" />
+    <EmbeddedResource Include="Form\Chung\DoanhThuVaPhiGoi.resx">
+      <DependentUpon>DoanhThuVaPhiGoi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\Xe\MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
